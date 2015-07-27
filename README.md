@@ -21,7 +21,7 @@ import MixPanelWrapper
 
 func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject : AnyObject]?) -> Bool {
 
-    # mixpanelToken is a constant set somewhere in your project
+    // mixpanelToken is a constant set somewhere in your project
     MixPanelWrapper.Mixpanel.sharedInstanceWithToken(mixpanelToken)
     
     MixPanelWrapper.Mixpanel.sharedInstance().track("Dev App Launch", properties: [
