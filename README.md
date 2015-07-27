@@ -6,7 +6,7 @@ Swift wrapper framework for MixPanel with Carthage support.
 
 ### How does it work ? ###
 
-This projects wraps the [mixpanel-iphone](https://github.com/mixpanel/mixpanel-iphone) as a Swift framework and makes it Carthage compatible. To achieve this, it adds the source from [mixpanel-iphone](https://github.com/mixpanel/mixpanel-iphone) as a git subtree module in to the folder *mixpanel-src*. This makes it easier to update the source.
+This projects wraps the [mixpanel-iphone](https://github.com/mixpanel/mixpanel-iphone) as a Swift framework and makes it Carthage compatible. To achieve this, it adds the source from [mixpanel-iphone](https://github.com/mixpanel/mixpanel-iphone) as a git subtree module in to the folder *mixpanel-src*. This makes it easier to update the source in the future with the command ```git subtree pull```.
 
 ### Installation ###
 
@@ -29,8 +29,6 @@ func application(application: UIApplication, didFinishLaunchingWithOptions launc
     ])
 
 }
-
-The setup is done.
 ```
 
-
+The setup is done.
