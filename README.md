@@ -10,7 +10,7 @@ This projects wraps the [mixpanel-iphone](https://github.com/mixpanel/mixpanel-i
 
 ### Installation ###
 
-Add ```github "hemantasapkota/mixpanel-swift"``` to your ```Cartfile``` and execute ```carthage update```. This build the **MixPanelWrapper.framework** file. Add this to the **Embedded Binaries** section on XCode.
+Add ```github "hemantasapkota/mixpanel-swift"``` to your ```Cartfile``` and execute ```carthage update```. This builds the **MixPanelWrapper.framework** file. Add this to the **Embedded Binaries** section on XCode.
 
 ### Usage ###
 
