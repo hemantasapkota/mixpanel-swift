@@ -15,23 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2E4736661B65F5C200E14CF7"
-               BuildableName = "MixPanel.framework"
-               BlueprintName = "MixPanel"
-               ReferencedContainer = "container:MixPanel.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2E4736711B65F5C200E14CF7"
-               BuildableName = "MixPanelTests.xctest"
-               BlueprintName = "MixPanelTests"
-               ReferencedContainer = "container:MixPanel.xcodeproj">
+               BuildableName = "MixPanelWrapper.framework"
+               BlueprintName = "MixPanelWrapper"
+               ReferencedContainer = "container:MixPanelWrapper.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -42,33 +28,14 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2E4736711B65F5C200E14CF7"
-               BuildableName = "MixPanelTests.xctest"
-               BlueprintName = "MixPanelTests"
-               ReferencedContainer = "container:MixPanel.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2E4736661B65F5C200E14CF7"
-            BuildableName = "MixPanel.framework"
-            BlueprintName = "MixPanel"
-            ReferencedContainer = "container:MixPanel.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
@@ -76,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2E4736661B65F5C200E14CF7"
-            BuildableName = "MixPanel.framework"
-            BlueprintName = "MixPanel"
-            ReferencedContainer = "container:MixPanel.xcodeproj">
+            BuildableName = "MixPanelWrapper.framework"
+            BlueprintName = "MixPanelWrapper"
+            ReferencedContainer = "container:MixPanelWrapper.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -94,9 +61,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2E4736661B65F5C200E14CF7"
-            BuildableName = "MixPanel.framework"
-            BlueprintName = "MixPanel"
-            ReferencedContainer = "container:MixPanel.xcodeproj">
+            BuildableName = "MixPanelWrapper.framework"
+            BlueprintName = "MixPanelWrapper"
+            ReferencedContainer = "container:MixPanelWrapper.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
